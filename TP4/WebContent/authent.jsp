@@ -16,11 +16,11 @@
 if (prenom != null && !prenom.isEmpty() && nom != null && !nom.isEmpty()) {
     out.println("Bonjour " + prenom + " " + nom);
 } else {
-    out.println("Aucun utilisateur enregistré. Voici le nom et prénom de la première personne enregistrée :");
-    // Obtenir les valeurs par défaut (première personne enregistrée)
+    out.println("Aucun utilisateur enregistrÃ©. Voici le nom et prÃ©nom de la premiÃ¨re personne enregistrÃ©e :");
+    // Obtenir les valeurs par dÃ©faut (premiÃ¨re personne enregistrÃ©e)
     //AuthentBean autbean = new AuthentBean();
     authent.setPrenom("John");
-    authent.setNom("Doe");//oudkhel li chat gbt la7dha
+    authent.setNom("Doe");
     out.println(authent.getPrenom() + " " + authent.getNom());
 } %>
 </body>
