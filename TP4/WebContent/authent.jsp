@@ -19,8 +19,8 @@ if (prenom != null && !prenom.isEmpty() && nom != null && !nom.isEmpty()) {
     out.println("Aucun utilisateur enregistré. Voici le nom et prénom de la première personne enregistrée :");
     // Obtenir les valeurs par défaut (première personne enregistrée)
     //AuthentBean autbean = new AuthentBean();
-    authent.setPrenom("John");
-    authent.setNom("Doe");
+    authent.setPrenom("ibtissem");
+    authent.setNom("saidi");
     out.println(authent.getPrenom() + " " + authent.getNom());
 } %>
 </body>
